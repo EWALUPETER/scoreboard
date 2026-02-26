@@ -1,0 +1,55 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html{
+    font-size: 18px;
+}
+body{
+    background-color:rgba(10, 10, 17, .5);
+}
+
+.container{
+ font-family: 'Poppins', sans-serif;
+ display: flex;
+
+ gap: 50px;
+ 
+ justify-content: center;
+ 
+ background-color: rgb(86, 86, 163); 
+ width: 500px;
+ height: 280px;
+ text-align: center;
+ margin: 50px auto;
+ 
+}
+
+h1{
+    color: white;
+
+margin-top: 30px;
+
+
+}
+#result{
+    font-size: 80px;
+    font-weight: 900;
+    color: rgba(163, 26, 26, 0.9);
+    background: black;
+    width:140px;
+
+}
+button {
+    padding: 6PX;
+    margin-top: 15px;
+}
+p{
+    font-size: 80px;
+    font-weight: 900;
+    color: rgba(163, 26, 26, 0.9);
+    background: black;
+    width:140px;
+}
